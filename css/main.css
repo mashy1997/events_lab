@@ -1,0 +1,42 @@
+body {
+  font-family: Palatino;
+}
+
+#reading-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.list-card {
+  background-color: lightblue;
+  border: 2.5px solid black;
+  border-radius: 10%;
+  list-style-type: none;
+  margin: 0 10px 10px 0; 
+}
+
+.submit-button { 
+  background-color: rgb(7, 175, 7);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  background-color: rgb(78, 255, 78);
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.delete-button { 
+  background-color: rgb(231, 13, 13);
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: rgb(240, 81, 81);
+  transition: 0.25s;
+  cursor: pointer;
+}
